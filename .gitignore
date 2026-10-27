@@ -1,0 +1,31 @@
+# Maven build output
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+.factorypath
+nbproject/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Secrets / local environment (never commit credentials)
+.env
+*.env
+*.pem
+*.key
+secrets/
+
+# Course material kept locally, not part of the codebase
+*.docx
